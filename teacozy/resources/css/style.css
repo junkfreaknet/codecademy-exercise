@@ -1,0 +1,143 @@
+/* Tea Cozy style sheet */
+
+/* page default */
+body {
+  margin: 0;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+/* --------- level 01 START ---------- */
+
+/* top */
+/* not a class */
+header {
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+
+  position: fixed;
+  display: flex;
+  text-align: right;
+  width: 100%;
+  background-color: black;
+}
+
+/* main */
+.main {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 69px;
+}
+.main .frame {
+  display: block;
+}
+/* footer "not a class" */
+footer {
+  height: 200px;
+}
+
+/* --------- level 01 END ---------- */
+
+/* --------- conents START ---------- */
+
+.our_mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feautured_tea {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.locations_container {
+  display: block;
+}
+.locations_container h2 {
+}
+
+.location_boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*width: 100%;*/
+}
+
+.location_boxes span {
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+
+  margin-top: 15px;
+  margin-right: 40px;
+
+}
+
+
+/* --------- conents END ---------- */
+
+/* --------- others START  ---------- */
+/* these are small parts of page. */
+
+/* logo */
+.logo {
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+  /*background-color: black;*/
+}
+
+/* nav box */
+header nav {
+  width: 100%;
+}
+
+.our_mission span {
+  width: 100%;
+  background-color: black;
+}
+/* tea photo and name */
+.item img {
+  height: 200px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.item span {
+  padding-top: 10px;
+}
+
+/* copyright */
+.copyright {
+  padding-left: 20px;
+  text-align: left;
+}
+/* --------- others END  ---------- */
